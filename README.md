@@ -4,14 +4,16 @@
 # Usage
 To clone this repostiory: 
 
-# Folder Structure:
-'''
-your-repository-name/
-│
-├── src/
-│   ├── Alzheimer_disease_classification-usingCNN.ipynb  # Jupyter notebook for the model
-│   ├── alzheimer_cnn_model.h5                           # Trained model weights
-│   └── model_architecture.json                          # Model architecture
-│
-└── README.md                                            # README file for the repository
+## Folder Structure
 
+The project is structured as follows:
+
+```plaintext
+detecting_alzheimer-s_disease/
+│
+├── src/                              # Source code directory
+│   ├── Alzheimer_disease_classification-usingCNN.ipynb  # Notebook with the CNN model
+│   ├── alzheimer_cnn_model.h5                           # Trained model file
+│   └── model_architecture.json                          # Model architecture JSON file
+│
+└── README.md                        # Repository documentation
